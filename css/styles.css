@@ -1,0 +1,17 @@
+.preto{
+    color:rgb(245, 13, 13);
+}
+
+.bg-gray{
+    background-color: black;
+}
+
+body{
+    /* familia da letra */
+    font-family: Arial, Helvetica, sans-serif;
+    /* tamanho da letra */
+    font-size: 13px;
+    /* cor da letra */
+    color: rgb(51, 8, 244);
+
+}
