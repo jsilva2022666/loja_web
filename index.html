@@ -27,20 +27,79 @@
                     <span>Selecione o endereço</span>
                  </div>   
                    
-              </div>
+                </div>
                
               <div class="pesquisa preto">
-                <select> 
-                  
-                </select>
-                <input type="todos">
+                <form action=" ">
+                    <select name="tipoProduto" id="" title="tipo do produto">
+                           <!-- os itens da lista vem do banco de dados eceto a 1ª(todos os P.) -->
+                           <!-- o value(com valores em palavras ao inves de numero aumenta a segurança) -->
+                           <option value=" 000 ou  palavra" selected>
+                             Todos os produtos
+                           </option>
+
+                           <option value="111 " > 
+                              Eletronicos
+                           </option> 
+
+                           <option value="beleza" > 
+                            beleza
+                         </option> 
+                    </select>
+                     
+                      <!-- no site da amazom foi usado div mas ele vai fazer de outra forma pois é + simples -->
+
+                       <!-- o label nesta situaçao não é obrigatorio -->
+                       <label for=" nomeproduto"> </label>
+                       <!-- assim como o comando select cada item do input tem que ter um name=" "(é o nome que dou para informação que sera enviada) -->
+                       <!--é sempre um item que o usuario vai inserir no sistema(texto).pode ser um botão de radio,checagem... -->
+                       <!-- existe varios tipos e formatos de input para cada ocasião -->
+                       <!-- o atributo for="abc" serve para associar(encaminhar)este label para o especifico select que tem a referida id="abc" do 
+                        formulário(associa o titulo ao item)(ao clicar na caixa a seleciona(muda de cor))(isso influencia no SOU)-->
+             
+                       <input type="text" name="nomedoproduto" id="nomeproduto" title="Nome Do Produto"
+                       placeholder="Nome do Produto">
+                       <!-- placehoder é o texto que você clica e digita ele some -->
+
+
+                      <!-- o label nesta situaçao não é obrigatorio -->
+                       <label for=" "></label>
+                      <!-- por ser um input de envio de informaçoes não é necessario por nome -->
+                       <!--para ficar igual a lupa da amazom utilizamos o css ou js para mudar o valor e colocar um icone ou img  -->
+                      <!-- o professor disse que usaria o button para questao do simbulo,é muito + facil aplicar do que o imput -->
+                      <!-- <input type="submit" value="">  -->
+
+                      <!-- no caso do button vamos por um id="" ou clss=""(diretamnete na tag ou no formulário(form));em casos da estrutura ser pequena podemos usar class mas se for robusto id(pequeno ou robusto é recomendavem id) -->
+                       <button type="submit" title="fazer pesquisa">
+                        ?
+                      </button>
+                
+                  </form>
               </div>
 
 
-             <div class="login"></div>
+             <div class="login">
+                <span>
+                Olá, faça o seu loguin
+              </span>
+
+              <span>
+                Contas e Listas
+              </span>
+
+             </div>
 
 
-             <div class="pedidos"></div>
+             <div class="pedidos">
+               <span>
+                0
+               </span>
+
+               <span>
+                CAR
+               </span>
+               
+             </div>
             
             </header>
     
