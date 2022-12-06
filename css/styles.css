@@ -12,6 +12,21 @@ body{
     /* tamanho da letra */
     font-size: 13px;
     /* cor da letra */
-    color: rgb(51, 8, 244);
+    color: ;
 
+}
+
+header {
+    background-color: aqua;
+}
+
+.logo img {
+  height: auto ;
+  width:  100% ;
+  
+}
+
+.icon { 
+  height: auto;
+  width: 100%;
 }
